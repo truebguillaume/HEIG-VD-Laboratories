@@ -1,0 +1,96 @@
+Initialiser         -------------------------------
+ -> Initialisation :
+    []
+    []
+estVide             -------------------------------
+ -> Liste vide :
+    []
+    []
+ -> estVide(listeVide) (ligne 67) OK
+ -> Liste non vide :
+    [18,16,14,12,10,8,6,4,2,0,-1,-3,-5,-7,-9,-11,-13,-15,-17,-19]
+    [-19,-17,-15,-13,-11,-9,-7,-5,-3,-1,0,2,4,6,8,10,12,14,16,18]
+ -> !estVide(listeNonVide) (ligne 71) OK
+Insertion en tete   -------------------------------
+ -> Liste insertion en tete :
+    [2,1,0]
+    [0,1,2]
+Insertion en queue  -------------------------------
+ -> Liste insertion en queue :
+    [0,1,2]
+    [2,1,0]
+Vider liste         -------------------------------
+ -> Liste a vider :
+    [18,16,14,12,10,8,6,4,2,0,-1,-3,-5,-7,-9,-11,-13,-15,-17,-19]
+    [-19,-17,-15,-13,-11,-9,-7,-5,-3,-1,0,2,4,6,8,10,12,14,16,18]
+ -> Liste videe a partir de 3 :
+    [18,16,14]
+    [14,16,18]
+ -> Liste totalement videe :
+    []
+    []
+ -> estVide(liste) (ligne 113) OK
+Longueur            -------------------------------
+ -> longueur(listeVide) == 0 (ligne 119) OK
+ -> longueur(listeGeneree) == TAILLE_TABLEAU_TEST (ligne 122) OK
+Suppression en tete -------------------------------
+ -> Liste initiale :
+    [18,16,14,12,10,8,6,4,2,0,-1,-3,-5,-7,-9,-11,-13,-15,-17,-19]
+    [-19,-17,-15,-13,-11,-9,-7,-5,-3,-1,0,2,4,6,8,10,12,14,16,18]
+ -> Liste initiale moins 1 :
+    [16,14,12,10,8,6,4,2,0,-1,-3,-5,-7,-9,-11,-13,-15,-17,-19]
+    [-19,-17,-15,-13,-11,-9,-7,-5,-3,-1,0,2,4,6,8,10,12,14,16]
+ -> valeurRecuperee == valeurAttendue (ligne 133) OK
+ -> Liste vide :
+    []
+    []
+ -> supprimerEnTete(listeVide, &valeurRecuperee) == LISTE_VIDE (ligne 137) OK
+ -> Liste taille 1 :
+    [-1]
+    [-1]
+ -> Liste taille 1 moins 1 :
+    []
+    []
+Suppression en queue-------------------------------
+ -> Liste initiale :
+    [18,16,14,12,10,8,6,4,2,0,-1,-3,-5,-7,-9,-11,-13,-15,-17,-19]
+    [-19,-17,-15,-13,-11,-9,-7,-5,-3,-1,0,2,4,6,8,10,12,14,16,18]
+ -> Liste initiale moins 1 :
+    [18,16,14,12,10,8,6,4,2,0,-1,-3,-5,-7,-9,-11,-13,-15,-17]
+    [-17,-15,-13,-11,-9,-7,-5,-3,-1,0,2,4,6,8,10,12,14,16,18]
+ -> valeurRecuperee == valeurAttendue (ligne 154) OK
+ -> Liste vide :
+    []
+    []
+ -> supprimerEnQueue(listeVide, &valeurRecuperee) == LISTE_VIDE (ligne 158) OK
+ -> Liste taille 1 :
+    [-1]
+    [-1]
+ -> Liste taille 1 moins 1 :
+    []
+    []
+Suppression selon critere-------------------------------
+ -> Liste initiale :
+    [18,16,14,12,10,8,6,4,2,0,-1,-3,-5,-7,-9,-11,-13,-15,-17,-19]
+    [-19,-17,-15,-13,-11,-9,-7,-5,-3,-1,0,2,4,6,8,10,12,14,16,18]
+ -> Liste apres suppression :
+    [18,14,10,6,2,-1,-5,-9,-13,-17]
+    [-17,-13,-9,-5,-1,2,6,10,14,18]
+Egalite             -------------------------------
+ -> Liste de reference :
+    [18,16,14,12,10,8,6,4,2,0,-1,-3,-5,-7,-9,-11,-13,-15,-17,-19]
+    [-19,-17,-15,-13,-11,-9,-7,-5,-3,-1,0,2,4,6,8,10,12,14,16,18]
+ -> Liste identique :
+    [18,16,14,12,10,8,6,4,2,0,-1,-3,-5,-7,-9,-11,-13,-15,-17,-19]
+    [-19,-17,-15,-13,-11,-9,-7,-5,-3,-1,0,2,4,6,8,10,12,14,16,18]
+ -> sontEgales(reference, autre) (ligne 182) OK
+ -> Liste changee :
+    [18,16,14,12,10,8,6,4,2,0,-1,-3,-5,-7,-9,-11,-13,-15,-17,52]
+    [52,-17,-15,-13,-11,-9,-7,-5,-3,-1,0,2,4,6,8,10,12,14,16,18]
+ -> !sontEgales(reference, autre) (ligne 186) OK
+ -> Liste moins un element :
+    [18,16,14,12,10,8,6,4,2,0,-1,-3,-5,-7,-9,-11,-13,-15,-17]
+    [-17,-15,-13,-11,-9,-7,-5,-3,-1,0,2,4,6,8,10,12,14,16,18]
+ -> !sontEgales(reference, autre) (ligne 191) OK
+
+Process finished with exit code 0

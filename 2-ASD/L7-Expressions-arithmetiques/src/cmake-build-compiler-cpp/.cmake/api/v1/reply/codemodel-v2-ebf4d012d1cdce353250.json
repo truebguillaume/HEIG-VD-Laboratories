@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ASD1_Labs_2020",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "L9-Dijkstra::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-L9-Dijkstra-Debug-20ca0b8dc45039938ab0.json",
+					"name" : "L9-Dijkstra",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "L9-Recursive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-L9-Recursive-Debug-2f6d7d631769ee1e5aab.json",
+					"name" : "L9-Recursive",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/guillaumetrueb/Library/CloudStorage/OneDrive-HESSO/HEIG-VD/2 - ASD/2 - LABORATOIRES/ASD2023-L7-Expressions-arithmetiques/src/cmake-build-compiler-cpp",
+		"source" : "/Users/guillaumetrueb/Library/CloudStorage/OneDrive-HESSO/HEIG-VD/2 - ASD/2 - LABORATOIRES/ASD2023-L7-Expressions-arithmetiques/src"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
