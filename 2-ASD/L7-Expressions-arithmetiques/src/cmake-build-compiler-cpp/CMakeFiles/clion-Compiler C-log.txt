@@ -1,4 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja "-DCMAKE_CXX_FLAGS=-Wall -Wextra -Wconversion -Wsign-conversion -pedantic" -G Ninja -S "/Users/guillaumetrueb/Library/CloudStorage/OneDrive-HESSO/HEIG-VD/2 - ASD/2 - LABORATOIRES/ASD2023-L7-Expressions-arithmetiques/src" -B "/Users/guillaumetrueb/Library/CloudStorage/OneDrive-HESSO/HEIG-VD/2 - ASD/2 - LABORATOIRES/ASD2023-L7-Expressions-arithmetiques/src/cmake-build-compiler-cpp"
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/guillaumetrueb/Library/CloudStorage/OneDrive-HESSO/HEIG-VD/2 - ASD/2 - LABORATOIRES/ASD2023-L7-Expressions-arithmetiques/src/cmake-build-compiler-cpp

@@ -1,6 +1,0 @@
-/Users/guillaumetrueb/Library/CloudStorage/OneDrive-HESSO/HEIG-VD/2 - ASD/2 - LABORATOIRES/ASD2023-L8-Arbre-AVL/src/cmake-build-compiler-cpp/CMakeFiles/AVL-Tree.dir
-/Users/guillaumetrueb/Library/CloudStorage/OneDrive-HESSO/HEIG-VD/2 - ASD/2 - LABORATOIRES/ASD2023-L8-Arbre-AVL/src/cmake-build-compiler-cpp/CMakeFiles/edit_cache.dir
-/Users/guillaumetrueb/Library/CloudStorage/OneDrive-HESSO/HEIG-VD/2 - ASD/2 - LABORATOIRES/ASD2023-L8-Arbre-AVL/src/cmake-build-compiler-cpp/CMakeFiles/rebuild_cache.dir
-/Users/guillaumetrueb/Library/CloudStorage/OneDrive-HESSO/HEIG-VD/2 - ASD/2 - LABORATOIRES/ASD2023-L8-Arbre-AVL/src/cmake-build-compiler-cpp/catch2_tests/CMakeFiles/AVL-tests.dir
-/Users/guillaumetrueb/Library/CloudStorage/OneDrive-HESSO/HEIG-VD/2 - ASD/2 - LABORATOIRES/ASD2023-L8-Arbre-AVL/src/cmake-build-compiler-cpp/catch2_tests/CMakeFiles/edit_cache.dir
-/Users/guillaumetrueb/Library/CloudStorage/OneDrive-HESSO/HEIG-VD/2 - ASD/2 - LABORATOIRES/ASD2023-L8-Arbre-AVL/src/cmake-build-compiler-cpp/catch2_tests/CMakeFiles/rebuild_cache.dir
